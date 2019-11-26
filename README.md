@@ -16,3 +16,11 @@ IDEM Epitech challenge
 `git push -u origin feature/admin-button-edit`
 
 After the first time, normal `git push`.
+
+5. Follow the link send by github and create a pull request
+!! Verify branches
+
+6. Assign creators and reviewers.
+
+8. Merge if all is ok
+
