@@ -19,10 +19,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Clients.cs" t="Include" />
           <e p="DoorController.cs" t="Include" />
           <e p="Node.cs" t="Include" />
           <e p="NpcController.cs" t="Include" />
           <e p="PathFollower.cs" t="Include" />
+          <e p="SystemGame.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">
           <e p="Editor" t="Include">
