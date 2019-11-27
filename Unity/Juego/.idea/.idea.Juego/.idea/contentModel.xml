@@ -7,17 +7,19 @@
         <e p="Ciconia Studio" t="Include">
           <e p="Shaders" t="Include">
             <e p="Double Sided Shaders" t="Include">
+              <e p="Double Sided Emissive Diffuse 2.shader" t="Include" />
               <e p="Double Sided Emissive Diffuse.shader" t="Include" />
+              <e p="Double Sided Standard Diffuse Bump 2.shader" t="Include" />
               <e p="Double Sided Standard Diffuse Bump.shader" t="Include" />
+              <e p="Double Sided Transparent Diffuse Bump 2.shader" t="Include" />
+              <e p="Double Sided Transparent Diffuse Bump Cutout 2.shader" t="Include" />
               <e p="Double Sided Transparent Diffuse Bump Cutout.shader" t="Include" />
               <e p="Double Sided Transparent Diffuse Bump.shader" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Script" t="Include">
+        <e p="Scripts" t="Include">
           <e p="DoorController.cs" t="Include" />
-          <e p="Moteur.cs" t="Include" />
-          <e p="MovementClient.cs" t="Include" />
           <e p="Node.cs" t="Include" />
           <e p="NpcController.cs" t="Include" />
           <e p="PathFollower.cs" t="Include" />
