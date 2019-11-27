@@ -1,6 +1,7 @@
 # VRMedieval
 IDEM Epitech challenge
 
+
 1. I make sure I have the latest code:
 
 `git pull`
@@ -23,4 +24,3 @@ After the first time, normal `git push`.
 6. Assign creators and reviewers.
 
 8. Merge if all is ok
-
