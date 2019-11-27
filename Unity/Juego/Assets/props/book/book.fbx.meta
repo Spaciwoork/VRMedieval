@@ -10,6 +10,11 @@ ModelImporter:
     100008: bookPage_01_low
     100010: bookpaper_01_low
     100012: bookpaper_02_low
+    100014: bookCover
+    100016: bookmark
+    100018: bookPage01
+    100020: bookpaper01
+    100022: bookpaper02
     400000: //RootNode
     400002: book_low_grp
     400004: bookCover_low
@@ -17,6 +22,11 @@ ModelImporter:
     400008: bookPage_01_low
     400010: bookpaper_01_low
     400012: bookpaper_02_low
+    400014: bookCover
+    400016: bookmark
+    400018: bookPage01
+    400020: bookpaper01
+    400022: bookpaper02
     2100000: pasted__ai_book_mtl
     2100002: Raven_model_aiStandardSurface4
     2300000: bookCover_low
@@ -24,17 +34,42 @@ ModelImporter:
     2300004: bookPage_01_low
     2300006: bookpaper_01_low
     2300008: bookpaper_02_low
+    2300010: bookCover
+    2300012: bookmark
+    2300014: bookPage01
+    2300016: bookpaper01
+    2300018: bookpaper02
     3300000: bookCover_low
     3300002: bookmark_low
     3300004: bookPage_01_low
     3300006: bookpaper_01_low
     3300008: bookpaper_02_low
+    3300010: bookCover
+    3300012: bookmark
+    3300014: bookPage01
+    3300016: bookpaper01
+    3300018: bookpaper02
     4300000: bookCover_low
     4300002: bookPage_01_low
     4300004: bookpaper_02_low
     4300006: bookpaper_01_low
     4300008: bookmark_low
-  externalObjects: {}
+    4300010: bookCover
+    4300012: bookPage01
+    4300014: bookpaper02
+    4300016: bookpaper01
+    4300018: bookmark
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Raven_model_aiStandardSurface4
+    second: {fileID: 2100000, guid: b099e85abd3a10349a894e234de01fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__ai_book_mtl
+    second: {fileID: 2100000, guid: b099e85abd3a10349a894e234de01fd2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
