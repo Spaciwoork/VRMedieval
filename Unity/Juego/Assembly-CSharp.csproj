@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\buttonSpawn.cs" />
+    <Compile Include="Assets\cubeButton.cs" />
     <Compile Include="Assets\Script\SteveController.cs" />
     <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
