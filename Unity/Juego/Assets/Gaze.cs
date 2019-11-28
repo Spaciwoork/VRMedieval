@@ -11,9 +11,11 @@ public class Gaze : MonoBehaviour
     public GameObject selectedObj;
     public float hoverforwardDistance = .5f;
     [SerializeField] private GameObject bookRecipes;
+    public GameObject exitButton;
 
     void Start () {
             bookRecipes.SetActive(false);
+            exitButton.SetActive(false);
     }
 
     void FixedUpdate()
@@ -26,7 +28,7 @@ public class Gaze : MonoBehaviour
         {
           if (selectedObj != null && selectedObj == seen.transform.gameObject)
           {
-            Debug.Log("EH OH LA");
+            exitButton.SetActive(true);
             bookRecipes.SetActive(true);
           }
         }

@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Gaze.cs" />
+     <Compile Include="Assets\GazeButton.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
