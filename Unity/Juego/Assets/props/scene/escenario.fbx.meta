@@ -11,6 +11,7 @@ ModelImporter:
     100010: wall02
     100012: wall03
     100014: wall04
+    100016: wall05
     400000: //RootNode
     400002: floor
     400004: roof
@@ -19,6 +20,7 @@ ModelImporter:
     400010: wall02
     400012: wall03
     400014: wall04
+    400016: wall05
     2100000: lambert1
     2300000: floor
     2300002: roof
@@ -27,6 +29,7 @@ ModelImporter:
     2300008: wall02
     2300010: wall03
     2300012: wall04
+    2300014: wall05
     3300000: floor
     3300002: roof
     3300004: table
@@ -34,6 +37,7 @@ ModelImporter:
     3300008: wall02
     3300010: wall03
     3300012: wall04
+    3300014: wall05
     4300000: table
     4300002: floor
     4300004: wall01
@@ -41,6 +45,7 @@ ModelImporter:
     4300008: wall03
     4300010: wall04
     4300012: roof
+    4300014: wall05
   externalObjects:
   - first:
       type: UnityEngine:Material
