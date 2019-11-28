@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Gaze : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class Gaze : MonoBehaviour
       {
         if (seen.collider.tag == "Button")
         {
-          if (selectedObj != null && selectedObj != seen.transform.GameObject)
+          if (selectedObj != null && selectedObj != seen.transform.gameObject)
           {
             GameObject hitObject = seen.transform.gameObject;
             Debug.Log("EH OH LA");

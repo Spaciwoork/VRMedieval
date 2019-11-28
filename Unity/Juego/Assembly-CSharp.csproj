@@ -227,7 +227,6 @@
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRTrackedRemote.cs" />
      <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
-     <Compile Include="Assets\Scenes\Gaze.cs" />
      <Compile Include="Assets\Script\SteveController.cs" />
      <None Include="Assets\Oculus\VR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\Oculus\VR\Resources\OVRMRChromaKey.cginc" />
