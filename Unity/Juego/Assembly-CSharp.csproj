@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\LoadSceneBook.cs" />
      <Compile Include="Assets\Script\Gaze.cs" />
      <Compile Include="Assets\Script\GazeButton.cs" />
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
