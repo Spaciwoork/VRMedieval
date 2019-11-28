@@ -24,7 +24,7 @@ public class Gaze : MonoBehaviour
       Ray raydirection = new Ray(transform.position, transform.forward);
       if (Physics.Raycast(raydirection, out seen, sightlength))
       {
-        if (seen.collider.tag == "Button")
+        if (seen.collider.tag == "Book")
         {
           if (selectedObj != null && selectedObj == seen.transform.gameObject)
           {
