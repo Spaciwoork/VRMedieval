@@ -40,6 +40,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: blinn1SG1
     second: {fileID: 2100000, guid: f52949df0c2895248931c90c4e979537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__blinn1SG1
+    second: {fileID: 2100000, guid: f52949df0c2895248931c90c4e979537, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
