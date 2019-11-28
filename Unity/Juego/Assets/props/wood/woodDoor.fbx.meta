@@ -6,14 +6,22 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: ai_woodProps_mtl2
+    2100002: ai_woodProps_mtl3
+    2100004: ai_woodProps_mtl4
     2300000: //RootNode
     3300000: //RootNode
     4300000: Door_geo
+    4300002: Window_geo
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ai_woodProps_mtl2
+    second: {fileID: 2100000, guid: 9901617f6db923548b97980d56c8b587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ai_woodProps_mtl3
     second: {fileID: 2100000, guid: 9901617f6db923548b97980d56c8b587, type: 2}
   materials:
     importMaterials: 1

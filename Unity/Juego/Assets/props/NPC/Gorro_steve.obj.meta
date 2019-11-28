@@ -11,7 +11,12 @@ ModelImporter:
     2300000: gorro_geo_low_Accesorios_low
     3300000: gorro_geo_low_Accesorios_low
     4300000: gorro_geo_low_Accesorios_low
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gorro_geo_low_Accesorios_lowMat
+    second: {fileID: 2100000, guid: 4df72e09f8b408549b4b14cdbeff875b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
