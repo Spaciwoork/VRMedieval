@@ -133,7 +133,7 @@ MonoBehaviour:
   sightlength: 100
   selectedObj: {fileID: 572428458}
   hoverforwardDistance: 0.5
-  bookRecipes: {fileID: 409312989}
+  bookRecipes: {fileID: 0}
 --- !u!1001 &166594035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -638,6 +638,7 @@ GameObject:
   - component: {fileID: 572428461}
   - component: {fileID: 572428460}
   - component: {fileID: 572428459}
+  - component: {fileID: 572428463}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Button
@@ -711,12 +712,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572428458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.442, y: 0.37, z: -3.46}
+  m_LocalPosition: {x: 1.375, y: 1.875, z: -0.1}
   m_LocalScale: {x: 0.88601, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572428463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572428458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035bac442b9251e4b8c35bb80bc85385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sightlength: 100
+  selectedObj: {fileID: 572428458}
+  hoverforwardDistance: 0.5
+  bookRecipes: {fileID: 409312987}
 --- !u!1001 &620788038
 PrefabInstance:
   m_ObjectHideFlags: 0

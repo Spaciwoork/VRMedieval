@@ -10,7 +10,11 @@ public class Gaze : MonoBehaviour
     public float sightlength = 100f;
     public GameObject selectedObj;
     public float hoverforwardDistance = .5f;
-    [SerializeField] private Image bookRecipes;
+    [SerializeField] private GameObject bookRecipes;
+
+    void Start () {
+            bookRecipes.SetActive(false);
+    }
 
     void FixedUpdate()
     {
@@ -23,11 +27,9 @@ public class Gaze : MonoBehaviour
           if (selectedObj != null && selectedObj == seen.transform.gameObject)
           {
             Debug.Log("EH OH LA");
-            bookRecipes.enabled = true;
-            // SceneManager.LoadScene("SampleScene");
+            bookRecipes.SetActive(true);
           }
         }
-        bookRecipes.enabled = false;
       }
     }
 }
