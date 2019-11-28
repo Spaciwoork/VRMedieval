@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class Gaze : MonoBehaviour
 {
     public float sightlength = 100f;
     public GameObject selectedObj;
     public float hoverforwardDistance = .5f;
+    [SerializeField] private Image bookRecipes;
 
     void FixedUpdate()
     {
@@ -17,14 +20,14 @@ public class Gaze : MonoBehaviour
       {
         if (seen.collider.tag == "Button")
         {
-          if (selectedObj != null && selectedObj != seen.transform.gameObject)
+          if (selectedObj != null && selectedObj == seen.transform.gameObject)
           {
-            GameObject hitObject = seen.transform.gameObject;
             Debug.Log("EH OH LA");
-            SceneManager.LoadScene("SampleScene");
+            bookRecipes.enabled = true;
+            // SceneManager.LoadScene("SampleScene");
           }
-          selectedObj = seen.transform.gameObject;
         }
+        bookRecipes.enabled = false;
       }
     }
 }
